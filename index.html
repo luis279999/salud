@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" 
+    integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+     <!--FONTAWERSOME-->
+     <script src="https://kit.fontawesome.com/061b61e7e0.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <script src="./main.js" type="module"> </script>
+
+    <title>Tu Historia Clínica Digital</title>
+</head>
+
+<body> 
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top">    
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#" ><img src="img/Logo.png" width="120 px" height="60" class="logo-brand " alt="logo"><strong style="color: #fff">  </strong> </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0 ">
+              <li class="nav-item">
+                <a class="nav-link mx-5" aria-current="page" href="#inicio"><strong>Inicio</strong></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link mx-5" aria-current="page" href="#funcionalidad"><strong>Funcionalidad</strong></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link mx-5" href="#nosotros"><strong>Nosotros </strong></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link mx-5" href="#ayuda"><strong>Ayuda</strong> </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link mx-5" href="#contacto"><strong>Contacto</strong></a>
+              </li>
+            </ul>
+           
+          </div>
+        </div>
+       
+    </nav>
+
+<section id="inicio" class="inicio">
+ 
+    <div class="container my-5">
+        <h1 class="titulo pt-5"> Bienvenido a tu Historia Clínica Digital</h1>
+        <h3 class="subtitulo">Gestión de Historias Clínicas Digitales que funciona de manera rapida y eficiente</h3>
+        <div class="container-boton">
+      <a href="medicoSesion.html" target="_blank"> <button type="button" class="btn btn-primary btn-lg mx-3" >MEDICO</button></a> 
+      <a href="paciente.html" target="_blank"> <button  type="button" class="btn btn-secondary btn-lg ">PACIENTE</button></a> 
+        </div>
+    </div>
+ 
+</section>
+
+<section id="funcionalidad" class="funcionalidad">
+  <ul >
+    <li ><strong>Permitir a los médicos organizar de manera sencilla y rápida, toda la información de sus pacientes</strong></li>  
+    <li ><strong>Brindar a los pacientes acceso a su Historia Clinica en Linea</strong></li>
+    <li ><strong>Sumar en la relación médico-paciente-información</strong></li>
+    <li ><strong>Impactar en el cuidado de su salud y la de su familia</strong></li>
+    <li ><strong>Acceder a su informacion desde cualquier lugar</strong></li>
+  </ul>
+
+</section>
+
+<section id="nosotros" class="nosotros">
+    <div class="container-fluid">
+        <div class="row no-gutters">
+          
+            <div class="col-md-7">
+                <div class="container-nosotros"> 
+                 
+               <p ><strong> Somos estudiantes de la Universidad Nacional de Córdoba, integrantes del proyecto Programando futuros
+                creemos que es de suma importancia contar en centros de salud con una plataforma que mantenga a todos los usuarios
+                 cerca de la información. También sostenemos en que ésta 
+                debe ser de fácil y ágil acceso para que de esta forma hacer cada vez más eficiente y productivo el sistema de atención.
+                La medicina evoluciona y la llegada de la tecnología puede beneficiar y sumar en la relación 
+                médico-paciente-información, y por lo tanto puede impactar en el cuidado de su salud y la de su familia.
+              </strong> </p>
+                </div>
+              </div>
+              <div class="col-md-5" >
+                <img class ="img-nosotros" src="img/nosotros_xd.jpg" height="240 px" weight="600 px" alt="img-nosotros">
+            </div>
+            </div>
+    </div>
+
+</section>
+
+<section id="ayuda" class="ayuda">
+  <div class="accordion pt-5" id="accordionExample">
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="headingOne">
+        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+          ¿Cómo funciona nuestra página?
+        </button>
+      </h2>
+      <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+        <div class="accordion-body">
+          El médico al momento de atenderte va a dejar constancia en esta plataforma de los datos, medicamentos, motivo de consulta y diagnóstico, para que puedas acceder a tu información en un formato amigable, 
+          fácil de usar e interpretar, en cualquier momento y lugar.
+        </div>
+      </div>
+    </div>
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="headingTwo">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+          ¿Cómo hago si quiero contar con esta información en formato físico?
+        </button>
+      </h2>
+      <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+        <div class="accordion-body">
+          Cuentas con la posibilidad de descargar el archivo en formato PDF para así poder imprimirlo. 
+          El original podrá ser solicitado en el centro de salud habitual.      
+          </div>
+      </div>
+    </div>
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="headingThree">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+          ¿Por qué debería utilizar esta plataforma de historia clínica virtual?
+        </button>
+      </h2>
+      <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+        <div class="accordion-body">
+          Las ventajas de poseer un historial clínico virtual son una mejora en el acceso a la información, facilidad a 
+          poseer un historial clínico único y un ingreso estandarizado de datos.        
+        </div>
+      </div>
+    </div>
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="headingFour">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+          ¿Para quien esta destinada esta pagina?
+        </button>
+      </h2>
+      <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
+        <div class="accordion-body">
+          Para toda persona que necesite un sistema seguro donde visibilizar 
+          sus datos medicos desde cualquier dispositivo
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="contacto" class="contacto">
+  <div class="row no-gutters">
+          
+    <div class="col-md-7">
+        <div class="text-justify"> 
+         <h2 class="titulo pt-5"> Contactar con historia clinica digital</h2>
+         <p > Si desea realizarnos una consulta,
+          complete el siguiente formulario y a la brevedad nos comunicaremos con usted.</p>
+        </div>
+      </div>
+  <div class="col-md-5">
+  <div class="mb-3">
+    <label for="exampleFormControlInput1" class="form-label">Nombre</label>
+    <input type="nombre" class="form-control" id="label_Nombre" placeholder="name">
+  </div>
+  <div class="mb-3">
+    <label for="exampleFormControlInput1" class="form-label">Email </label>
+    <input type="email" class="form-control" id="label_Email" placeholder="name@example.com">
+  </div>
+
+  <div class="mb-3">
+    <label for="exampleFormControlTextarea1" class="form-label">Mensaje</label>
+    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+  </div>
+
+  <button type="button" class="btn btn-primary btn-lg  ">Contactar</button>
+</div>
+
+  </div>
+
+</section>
+
+
+
+<section>
+ <div class="mapas">
+  <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+     
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active" data-bs-interval="10000" >
+        <div id="map" class="text-center">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d13619.979339310587!2d-64.18658667822221!3d-31.414268390577448!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1shospitales%20de%20cordoba!5e0!3m2!1ses!2sar!4v1667454486209!5m2!1ses!2sar" width="600" height="450" style="border:0;" 
+          allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe> </div>
+        
+      </div>
+      <div class="carousel-item" data-bs-interval="2000">
+        <div id="map-farmacias" class="text-center">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d13619.617669993184!2d-64.1889041032445!3d-31.41675944287304!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sfarm%C3%A1cias%20de%20C%C3%B3rdoba!5e0!3m2!1ses!2sar!4v1667454267435!5m2!1ses!2sar" width="600" height="450" style="border:0;" 
+        allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>    
+      </div>
+      
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+</div>
+
+  </section>
+  <section class="final">
+    <div>
+
+    </div>
+  </section>
+
+<!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" 
+integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+
+</body>
+</html>

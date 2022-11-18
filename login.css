@@ -1,0 +1,142 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #DFF6FF;
+    background-image: url(./img/inicio_de_sesion.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  /* Nav Bar*/
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #06283D;
+  }
+  
+  li {
+    float: right ;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 20px 50px;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  li a:hover {
+    background-color: #06283D;
+  }
+  
+  .logo{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 50px;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    float: left;
+    font-size: 25px;
+
+  }
+  .login-box {
+    width: 320px;
+    height: 500px;
+    background: #06283D;
+    color: #fff;
+    top: 55%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    padding: 20px 30px;
+  }
+  
+  
+  .login-box h1 {
+    font-family: 'Roboto', sans-serif ;
+    margin: 0;
+    padding: 0 0 20px;
+    text-align: center;
+    font-size: 25px;
+  }
+  
+  .login-box label {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif ;
+    font-weight: bold;
+    display: block;
+  }
+  
+  .login-box input {
+    width: 100%;
+    margin-bottom: 20px;
+    
+  }
+  
+  .login-box input[type="text"], .login-box input[type="password"] {
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: #fff;
+    font-size: 16px;
+  }
+ 
+  .login-box input[type="submit"] {
+    border: none;
+    outline: none;
+    height: 40px;
+    background: #256D85;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 20px;
+  }
+  
+  .login-box input[type="submit"]:hover {
+    cursor: pointer;
+    background: #fdfeff;
+    color: #000;
+  }
+
+/*
+.Boton i{
+  position: absolute;
+  top: 10px; 
+  left: 10px;
+}
+ 
+.Boton{
+  width: 100%;
+  margin: 15px 0px;
+  padding: 15px;
+  box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+  position: relative;
+}
+ 
+.Boton{
+  background: #256D85;
+  border-style:none;
+  border-radius: 20px;
+  color: #fff;
+  font-size:25px ;
+}
+*/
+  .login-box a {
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif ;
+    font-size: 12px;
+    line-height: 20px;
+    color: rgb(236, 247, 250);
+  }
+  
+  .login-box a:hover {
+    color: #fff;
+  }

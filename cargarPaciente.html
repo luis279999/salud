@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="medico.css">
+    <title>Cargar consulta</title>
+</head>
+<body>    
+    <ul>
+        <button class="cerrar">
+            <a href="index.html"> <b>Cerrar sesion</b></a> </button>    
+             
+    </ul>
+    <main>
+    <h1>Registro de consulta</h1>
+
+    <form>
+        <div class='dato'>
+            <label>Nombres</label>
+            <input name='nombre' type='name'  placeholder='' autocomplete id="carga_Nombres"/>
+        </div>
+        <div class='dato'>
+            <label>Apellidos</label>
+            <input name='apellidos' type='name' autocomplete id="carga_Apellidos" />
+        </div>
+        
+        <div class='dato'>
+            <label>Edad</label>
+            <input name='Edad' type="number" autocomplete id="carga_Edad"/>
+        </div>
+        <div class='dato'>
+            <label>DNI</label>
+            <input name='DNI' type="tel" autocomplete id="carga_DNI"/>
+        </div>
+        <div class='dato'>
+            <label>Fecha de consulta</label>
+            <input name='Direccion' type='date' autocomplete id="carga_Fecha_de_consulta"/>
+        </div>
+        <div class='dato'>
+            <label>Medico</label>
+            <input name='medico' type='name' autocomplete id="carga_Medico"/>
+        </div>
+        <div class='textBox'>
+            <label>Diagnostico</label>
+            <input name='Diagnostico' type='name' autocomplete id="carga_Diagnostico"/>
+            <textarea></textarea>
+
+        </div>
+        <div class='textBox'>
+            <label>Indicaciones</label>
+            <input name='Diagnostico' type='name' autocomplete id="carga_Indicaciones"/>
+            <textarea></textarea>
+        </div>
+         
+        
+        <div class='cargar'>
+            <button>
+                CARGAR CONSULTA
+            </button>
+        </div>
+    </form></main>
+    
+
+</body>
+</html>

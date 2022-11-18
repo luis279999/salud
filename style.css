@@ -1,0 +1,199 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #DFF6FF;
+  color: #093c50;
+}
+section{
+    padding: 180px 0 ;
+}
+.nav-link {color:#ffffff;
+    }
+.logo-brand{
+    min-width: 60px;
+    max-width: 80px;
+}
+.inicio{
+    background-image: url('img/doctor-paciente.jpg');
+    background-size: cover;
+    padding-top: 90px;
+    min-height: 500px;
+    color:#ffffff;
+    animation:movimiento 10s infinite linear alternate;
+}
+.funcionalidad{
+  font-size: 25px;
+  background-image: url('img/Funcionalidad.jpg');
+  background-size: cover;
+  text-align: justify;
+  color:rgb(1, 15, 18)
+  
+ 
+}
+.container-nosotros{
+  padding: 10px;
+  background-color:honeydew;
+  text-align: justify;
+  max-width: 800px;
+  border-radius: 40px;
+  color: #093c50;
+  margin:10px 20px 40px 20px;
+  font-size: 20px;
+}
+.contacto{
+  margin-left: 60px ;
+}
+
+@keyframes movimiento{
+  from{
+     background-position: bottom left;
+  }to{
+    background-position: top right;
+  }
+}
+
+h1{
+    text-transform:uppercase;
+    color: #040809;
+    text-align:center;
+    border-color: medium #100a0a;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    font-weight: 600;
+}
+h3{
+    text-transform:inherit;
+    color: #093c50;
+    text-align:center;
+  
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    }
+  p{
+    color: #093c50;
+    
+  }
+.container-boton{
+    text-align:center;
+    margin-top: 120px;
+}
+.img-nosotros:hover{
+    transform:scale(0.9);
+
+}
+.img-nosotros{
+    width: 100%;
+    transition:all 0.5s ease;
+}
+.ayuda{
+    background-image: url('img/fondo2.jpg');
+    background-size: cover;
+    padding-top: 60px;
+    min-height: 400px;
+    color:#ffffff;
+}
+.contacto{
+  margin-bottom: 3px;
+}
+.mapas{
+  
+ margin-top: -200px;
+}
+.final{
+  background-color:#0c42f1;
+	height: 50%;
+  padding: 45px;
+ 
+}
+/**estilos de inicio de sesion**/
+
+.login-box {
+    width: 320px;
+    height: 420px;
+    background: #06283D;
+    color: #fff;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    padding: 70px 30px;
+  }
+  
+  
+  .login-box h1 {
+    font-family: 'Roboto', sans-serif ;
+    margin: 0;
+    padding: 0 0 20px;
+    text-align: center;
+    font-size: 25px;
+  }
+  
+  .login-box label {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif ;
+    font-weight: bold;
+    display: block;
+  }
+  
+  .login-box input {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  
+  .login-box input[type="text"], .login-box input[type="password"] {
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: #fff;
+    font-size: 16px;
+  }
+  
+  .login-box input[type="submit"] {
+    border: none;
+    outline: none;
+    height: 40px;
+    background: #256D85;
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    border-radius: 20px;
+  }
+  
+  .login-box input[type="submit"]:hover {
+    cursor: pointer;
+    background: #fdfeff;
+    color: #000;
+  }
+  
+  .login-box a {
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif ;
+    font-size: 12px;
+    line-height: 20px;
+    color: rgb(236, 247, 250);
+    /*padding: 50px;*/
+   
+  }
+  
+  .login-box a:hover {
+    color: #fff;
+
+  }
+/**estilos de PACIENTE LOGUEADO**/
+  .buscar-HC{
+    width: 800px;
+    height: 500px;
+    background: #06283d;
+    color: #fff;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    padding: 110px 100px;
+ 
+  }
+
